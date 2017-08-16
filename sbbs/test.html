@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            margin:0;
+            padding:0;
+        }
+    </style>
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('a').click(function(event) {
+                event.preventDefault();
+                $('p.a1').fadeOut();
+                $('p.a2').fadeOut(100);
+            })
+        });
+    </script>
+</head>
+<body>
+<a>hhhhhaahahah</a>
+<p class="a1">99999999999</p>
+<p class="a2">asdxzcv</p>
+
+</body>
+</html>

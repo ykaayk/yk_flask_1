@@ -1,0 +1,41 @@
+{% extends 'front/front_base.html' %}
+
+{% block title %}
+照片抽象派 : )
+{% endblock %}
+
+{% block head %}
+    <script src="https://cdn.staticfile.org/Plupload/2.1.1/moxie.js"></script>
+    <script src="https://cdn.staticfile.org/Plupload/2.1.1/plupload.dev.js"></script>
+    <script src="{{ static('front/js/front_pic_abstract.js') }}"></script>
+    <script src="https://cdn.staticfile.org/qiniu-js-sdk/1.0.14-beta/qiniu.min.js"></script>
+{% endblock %}
+
+{% block container %}
+     <div class="top-div">
+        <div>
+            <img src="" alt="" id="show-pic" class="pic-show">
+            <input type="text" class="btn btn-info" value="上传你的照片 : )" id="abstract-pic" style="display: block;">
+        </div>
+         <br><br>
+         <div>
+            <img src="" alt="" id="pic-after-abstract" class="pic-show">
+            <input class="btn btn-info" type="button" value="  抽象化！！  " id="abstract-submit" style="display: none;">
+            <div style="display: none;">
+                <div class="btn-group" style="display: none;" id="type-btn">
+                <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="img-type" img-type="0">
+                丰富<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" style="display: none;" class="t-type" img-type="0">包罗万象</a></li>
+                    <li><a href="#" class="t-type" img-type="1">柴犬</a></li>
+                    <li><a href="#" class="t-type" img-type="2">萌犬</a></li>
+                    <li><a href="#" class="t-type" img-type="3">健身</a></li>
+                    <li><a href="#" class="t-type" img-type="4">美女</a></li>
+                    <li><a href="#" class="t-type" img-type="5">足球</a></li>
+                </ul>
+            </div>
+            </div>
+         </div>
+     </div>
+{% endblock %}
