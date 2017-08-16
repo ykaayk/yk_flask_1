@@ -12,20 +12,20 @@ from qiniu import Auth, put_file, etag
 # 图片库更新时，请添加路径
 # 路径
 now_path = os.path.abspath(os.path.dirname(sys.argv[0]))  # 当前脚本路径
-main_path = now_path+'\\static\\images\\abstract'  # abstract路径
-# main_path = now_path+'\\..\\static\\images\\abstract'  # 如果作为主程序使用，此刻abstract的路径
-main_pic_path = main_path + '\\main-pic'  # 主图片路径
+main_path = now_path+'/static/images/abstract'  # abstract路径
+# main_path = now_path+'/../static/images/abstract'  # 如果作为主程序使用，此刻abstract的路径
+main_pic_path = main_path + '/main-pic'  # 主图片路径
 main_path_pic_before = 'F:\\code\\yk\\pic-pick'  # 处理之前的图片
-dog_cq_pic_path = main_path_pic_before + '\\p-animal\\dog-cq\\before'  # 柴犬图片路径
-dog_cq_pic_path_after = main_path + '\\p-animal\\dog-cq\\after'  # 柴犬图片处理之后路径
-dog_pic_path = main_path_pic_before + '\\p-animal\\dog\\before'  # 狗图片路径
-dog_pic_path_after = main_path + '\\p-animal\\dog\\after'  # 狗图片处理之后路径
-meinv_js_pic_path = main_path_pic_before + '\\p-meinv\\meinv-jianshen\\before'  # 健身美女图片路径
-meinv_js_pic_path_after = main_path + '\\p-meinv\\meinv-jianshen\\after'  # 健身美女图片处理之后路径
-meinv_pic_path = main_path_pic_before + '\\p-meinv\\meinv\\before'  # 美女图片路径
-meinv_pic_path_after = main_path + '\\p-meinv\\meinv\\after'  # 美女图片处理之后路径
-football_pic_path = main_path_pic_before + '\\p-sport\\p-football\\p-before'  # 足球图片路径
-football_pic_path_after = main_path + '\\p-sport\\p-football\\after'  # 足球图片处理之后路径
+dog_cq_pic_path = main_path_pic_before + '/p-animal/dog-cq/before'  # 柴犬图片路径
+dog_cq_pic_path_after = main_path + '/p-animal/dog-cq/after'  # 柴犬图片处理之后路径
+dog_pic_path = main_path_pic_before + '/p-animal/dog/before'  # 狗图片路径
+dog_pic_path_after = main_path + '/p-animal/dog/after'  # 狗图片处理之后路径
+meinv_js_pic_path = main_path_pic_before + '/p-meinv/meinv-jianshen/before'  # 健身美女图片路径
+meinv_js_pic_path_after = main_path + '/p-meinv/meinv-jianshen/after'  # 健身美女图片处理之后路径
+meinv_pic_path = main_path_pic_before + '/p-meinv/meinv/before'  # 美女图片路径
+meinv_pic_path_after = main_path + '/p-meinv/meinv/after'  # 美女图片处理之后路径
+football_pic_path = main_path_pic_before + '/p-sport/p-football/p-before'  # 足球图片路径
+football_pic_path_after = main_path + '/p-sport/p-football/after'  # 足球图片处理之后路径
 # 所有拼图路径
 all_pic_path = []
 for path in [(dog_cq_pic_path, dog_cq_pic_path_after), (dog_pic_path, dog_pic_path_after),
@@ -117,9 +117,9 @@ def change_img(img_path_before, img_path_after, thumbnail_size, chang_multiple=1
         average_rgb = rgb_average((r, g, b), n)
         # 根据rgb值保存图片
         img_suffix = img.split('.')[-1]  # 图片后缀
-        img_type = img_path_after.split('\\')[-2]
+        img_type = img_path_after.split('/')[-2]
         img_name = str(average_rgb[0])+'-'+str(average_rgb[1])+'-'+str(average_rgb[2])+'-'+img_type+'.'+img_suffix
-        last_save_img_path = img_path_after + '\\' + str(thumbnail_size[0])+'-'+str(thumbnail_size[1])
+        last_save_img_path = img_path_after + '/' + str(thumbnail_size[0])+'-'+str(thumbnail_size[1])
         if not os.path.exists(last_save_img_path):
             os.makedirs(last_save_img_path)
         os.chdir(last_save_img_path)  # 修改路径
@@ -185,7 +185,7 @@ def main_img_2(img_f, pic_path_after_list, thumbnail_size_list):
                 w_px += thumbnail_size[0]  # 像素点自增长
             h_px += thumbnail_size[1]  # 像素点自增长
         new_img_name = img_f
-        last_main_pic_path = main_pic_path + '\\' + str(thumbnail_size[0]) + '-' + str(thumbnail_size[1])
+        last_main_pic_path = main_pic_path + '/' + str(thumbnail_size[0]) + '-' + str(thumbnail_size[1])
         if not os.path.exists(last_main_pic_path):
             os.mkdir(last_main_pic_path)
         os.chdir(last_main_pic_path)
@@ -203,7 +203,7 @@ def choice_img(pixel, pic_path_after_list, thumbnail_size):
     b = pixel[2]
     rgb_img_list = []  # 存储RGB值，文件名，路径
     for path_after in pic_path_after_list:  # 所有路径
-        path_after = path_after + '\\' + str(thumbnail_size[0])+'-'+str(thumbnail_size[1])
+        path_after = path_after + '/' + str(thumbnail_size[0])+'-'+str(thumbnail_size[1])
         if not os.path.exists(path_after):
             os.mkdir(path_after)
         files = os.listdir(path_after)
@@ -265,12 +265,12 @@ def img_abstract(img_url, img_type, tt_size):
         ttt_size = [(20, 20)]
     else:
         ttt_size = [(40, 40)]
-    urllib.urlretrieve(img_url, main_pic_path+'\\'+img_name)
+    urllib.urlretrieve(img_url, main_pic_path+'/'+img_name)
     main_img_2(img_name, last_path, ttt_size)
-    os.remove(main_pic_path + '\\' + img_name)
-    last_main_pic_path = main_pic_path + '\\' + str(ttt_size[0][0]) + '-' + str(ttt_size[0][1])
+    os.remove(main_pic_path + '/' + img_name)
+    last_main_pic_path = main_pic_path + '/' + str(ttt_size[0][0]) + '-' + str(ttt_size[0][1])
     last_url_img = qi_niu(img_name, last_main_pic_path)
-    os.remove(last_main_pic_path+'\\'+img_name)
+    os.remove(last_main_pic_path+'/'+img_name)
     return last_url_img
 
 
@@ -289,7 +289,7 @@ def qi_niu(img_name, a_path):
     key = img_name
     # 生成上传 Token，可以指定过期时间等
     token = q.upload_token(bucket_name, key, 3600)
-    localfile = a_path + '\\' + img_name
+    localfile = a_path + '/' + img_name
     # localfile = './static/images/abstract/main-pic/'+a_path[-5:]+'/'+img_name
     ret, info = put_file(token, key, localfile)
     # print(info)
@@ -306,7 +306,7 @@ if __name__ == '__main__':
     for path in all_pic_path:
         before_path = path[0]
         after_path = path[1]
-        name = path[0].split('\\')[-2]
+        name = path[0].split('/')[-2]
         # last_path = after_path + '\\' + str(t_size[0]) + '-' + str(t_size[1])  # 最终处理后的路径
         if not os.path.exists(after_path):
             # 修改拼接图片
