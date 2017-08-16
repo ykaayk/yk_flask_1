@@ -68,8 +68,9 @@ $(function () {
                  // var res = parseJSON(info);
                  // var sourceLink = domain +"/"+ res.key; 获取上传成功后的文件的Url
                 var fileUrl = domain + file.target_name;
-                var imgTag = $('#show-pic').attr('src', fileUrl).css('width', '200px');
-                $('#abstract-submit').css('display', 'block').show(1000);
+                var imgTag = $('#show-pic').attr('src', fileUrl);
+               imgTag.animate({'width': '200px'});
+                $('#abstract-submit').css('display', 'block').show(10000);
                 // $('#type-btn').show(1000);
           },
           'Error': function(up, err, errTip) {
@@ -126,7 +127,8 @@ $(function () {
             'success': function (data) {
                 if(data['code'] == '200'){
                     var pic_after_abstract_url = data['data']['img_url'];
-                    $('#pic-after-abstract').attr('src', pic_after_abstract_url).css('width', '200px');
+                    $('#pic-after-abstract').attr('src', pic_after_abstract_url);
+                    $('#pic-after-abstract').animate({'width': '200px'});
                 }
             }
         })

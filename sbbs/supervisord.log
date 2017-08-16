@@ -14828,3 +14828,13 @@
 2017-08-16 16:12:03,628 INFO spawned: 'sbbs' with pid 45606
 2017-08-16 16:12:03,631 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
 2017-08-16 16:12:03,632 INFO exited: sbbs (exit status 127; not expected)
+2017-08-16 08:26:47,233 INFO RPC interface 'supervisor' initialized
+2017-08-16 08:26:47,234 INFO daemonizing the supervisord process
+2017-08-16 08:26:47,234 INFO supervisord started with pid 27656
+2017-08-16 08:26:48,237 INFO spawned: 'sbbs' with pid 27657
+2017-08-16 08:26:48,241 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-16 08:27:56,021 INFO waiting for sbbs to stop
+2017-08-16 08:27:56,021 WARN killing 'sbbs' (27657) with SIGKILL
+2017-08-16 08:27:56,022 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-16 08:27:56,063 INFO spawned: 'sbbs' with pid 27685
+2017-08-16 08:27:56,063 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)

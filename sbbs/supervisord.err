@@ -9938,3 +9938,82 @@ supervisor: couldn't chdir to ~/yk_flask_1/sbbs: ENOENT
 supervisor: child process was not spawned
 supervisor: couldn't chdir to ~/yk_flask_1/sbbs: ENOENT
 supervisor: child process was not spawned
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 16 08:26:48 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1022-aws #31-Ubuntu SMP Tue Jun 27 11:27:55 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask_1/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask_1/sbbs
+your processes number limit is 3902
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask_1/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xbd5b10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xbd5b10 pid: 27657 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27657)
+spawned uWSGI worker 1 (pid: 27662, cores: 1)
+spawned uWSGI worker 2 (pid: 27663, cores: 1)
+spawned uWSGI worker 3 (pid: 27664, cores: 1)
+spawned uWSGI worker 4 (pid: 27665, cores: 1)
+spawned uWSGI worker 5 (pid: 27666, cores: 1)
+spawned uWSGI worker 6 (pid: 27667, cores: 1)
+spawned uWSGI worker 7 (pid: 27668, cores: 1)
+spawned uWSGI worker 8 (pid: 27669, cores: 1)
+spawned uWSGI worker 9 (pid: 27670, cores: 1)
+spawned uWSGI worker 10 (pid: 27671, cores: 1)
+...brutally killing workers...
+[uWSGI] getting INI configuration from sbbs_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 16 08:27:56 2017] ***
+compiled with version: 5.4.0 20160609 on 22 June 2017 13:16:58
+os: Linux-4.4.0-1022-aws #31-Ubuntu SMP Tue Jun 27 11:27:55 UTC 2017
+nodename: ip-172-31-41-29
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/yk_flask_1/sbbs
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/yk_flask_1/sbbs
+your processes number limit is 3902
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/yk_flask_1/sbbs/sbbs.sock fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ab0b10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ab0b10 pid: 27685 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27685)
+spawned uWSGI worker 1 (pid: 27690, cores: 1)
+spawned uWSGI worker 2 (pid: 27691, cores: 1)
+spawned uWSGI worker 3 (pid: 27692, cores: 1)
+spawned uWSGI worker 4 (pid: 27693, cores: 1)
+spawned uWSGI worker 5 (pid: 27694, cores: 1)
+spawned uWSGI worker 6 (pid: 27695, cores: 1)
+spawned uWSGI worker 7 (pid: 27696, cores: 1)
+spawned uWSGI worker 8 (pid: 27697, cores: 1)
+spawned uWSGI worker 9 (pid: 27698, cores: 1)
+spawned uWSGI worker 10 (pid: 27699, cores: 1)
