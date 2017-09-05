@@ -72,7 +72,13 @@ class PostStarModel(db.Model):
 
 
 
-
+class MusicModel(db.Model):
+    __tablename__ = 'music'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    date_time = db.Column(db.String(100))
+    song_name = db.Column(db.String(100))
+    artist_name = db.Column(db.String(100))
+    song_id = db.Column(db.Integer)
 
 
 

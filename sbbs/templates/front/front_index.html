@@ -226,9 +226,15 @@
                 </a>
             {% endfor %}
         </div>
-    </div>
     <div class="diy-container">
         <h3>  点一下 : )</h3>
-        <a href="{{ url_for('post.img_abstract') }}" class="btn btn-default div-btn">照片抽象派</a>
+        <div>
+            <a href="{{ url_for('post.img_abstract') }}" class="btn btn-default div-btn">照片抽象派</a>
+        </div>
+        <div>
+            <a href="{{ url_for('post.music_in') }}" class="btn btn-default div-btn">音乐鉴赏师</a>
+        </div>
     </div>
+    </div>
+
 {% endblock %}

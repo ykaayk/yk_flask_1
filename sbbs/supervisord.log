@@ -14838,3 +14838,175 @@
 2017-08-16 08:27:56,022 INFO stopped: sbbs (terminated by SIGKILL)
 2017-08-16 08:27:56,063 INFO spawned: 'sbbs' with pid 27685
 2017-08-16 08:27:56,063 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-21 07:34:47,087 INFO waiting for sbbs to stop
+2017-08-21 07:34:47,088 WARN killing 'sbbs' (27685) with SIGKILL
+2017-08-21 07:34:47,089 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-21 07:34:47,134 INFO spawned: 'sbbs' with pid 5961
+2017-08-21 07:34:47,135 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-21 07:38:29,791 INFO waiting for sbbs to stop
+2017-08-21 07:38:29,809 WARN killing 'sbbs' (5961) with SIGKILL
+2017-08-21 07:38:29,810 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-21 07:38:29,886 INFO spawned: 'sbbs' with pid 5999
+2017-08-21 07:38:29,887 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-21 07:40:47,157 INFO waiting for sbbs to stop
+2017-08-21 07:40:47,161 WARN killing 'sbbs' (5999) with SIGKILL
+2017-08-21 07:40:47,162 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-21 07:40:47,214 INFO spawned: 'sbbs' with pid 6018
+2017-08-21 07:40:47,215 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-21 08:16:29,022 WARN received SIGHUP indicating restart request
+2017-08-21 08:16:29,044 INFO waiting for sbbs to die
+2017-08-21 08:16:29,045 WARN killing 'sbbs' (6018) with SIGKILL
+2017-08-21 08:16:29,045 WARN received SIGTERM indicating exit request
+2017-08-21 08:16:29,081 WARN killing 'sbbs' (6018) with SIGKILL
+2017-08-21 08:16:29,121 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-21 08:30:33,803 INFO RPC interface 'supervisor' initialized
+2017-08-21 08:30:33,804 INFO daemonizing the supervisord process
+2017-08-21 08:30:33,805 INFO supervisord started with pid 1537
+2017-08-21 08:30:34,807 INFO spawned: 'sbbs' with pid 1538
+2017-08-21 08:30:34,828 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-21 08:30:46,825 INFO waiting for sbbs to stop
+2017-08-21 08:30:46,826 WARN killing 'sbbs' (1538) with SIGKILL
+2017-08-21 08:30:46,826 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-21 08:30:46,833 INFO spawned: 'sbbs' with pid 1554
+2017-08-21 08:30:46,833 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+此用户是: timeout: 2
+z7Um
+timeout: 2
+timeout: 2
+timeout: 2
+awuy
+timeout: 2
+xgMD
+timeout: 2
+Wtdj
+timeout: 2
+timeout: 2
+Nfvn
+timeout: 2
+此用户是: 此用户是: timeout: 2
+此用户是: 2017-08-31 11:40:00,354 INFO waiting for sbbs to stop
+2017-08-31 11:40:00,355 WARN killing 'sbbs' (1554) with SIGKILL
+2017-08-31 11:40:00,356 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 11:40:00,399 INFO spawned: 'sbbs' with pid 30701
+2017-08-31 11:40:00,399 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 11:40:28,941 INFO waiting for sbbs to stop
+2017-08-31 11:40:28,942 WARN killing 'sbbs' (30701) with SIGKILL
+2017-08-31 11:40:28,943 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 11:40:41,569 INFO spawned: 'sbbs' with pid 30718
+2017-08-31 11:40:41,570 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 11:45:04,397 INFO waiting for sbbs to stop
+2017-08-31 11:45:04,398 WARN killing 'sbbs' (30718) with SIGKILL
+2017-08-31 11:45:04,399 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 11:45:04,431 INFO spawned: 'sbbs' with pid 30757
+2017-08-31 11:45:04,431 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 12:02:41,892 INFO waiting for sbbs to stop
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,892 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,893 WARN killing 'sbbs' (30757) with SIGKILL
+2017-08-31 12:02:41,932 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 12:02:41,975 INFO spawned: 'sbbs' with pid 30833
+2017-08-31 12:02:41,976 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 12:04:56,681 INFO waiting for sbbs to stop
+2017-08-31 12:04:56,721 WARN killing 'sbbs' (30833) with SIGKILL
+2017-08-31 12:04:56,723 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 12:04:56,727 INFO spawned: 'sbbs' with pid 30855
+2017-08-31 12:04:56,727 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 12:06:20,245 INFO waiting for sbbs to stop
+2017-08-31 12:06:20,245 WARN killing 'sbbs' (30855) with SIGKILL
+2017-08-31 12:06:20,245 WARN killing 'sbbs' (30855) with SIGKILL
+2017-08-31 12:06:20,245 WARN killing 'sbbs' (30855) with SIGKILL
+2017-08-31 12:06:20,245 WARN killing 'sbbs' (30855) with SIGKILL
+2017-08-31 12:06:20,245 WARN killing 'sbbs' (30855) with SIGKILL
+2017-08-31 12:06:20,286 WARN killing 'sbbs' (30855) with SIGKILL
+2017-08-31 12:06:20,286 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 12:06:20,293 INFO spawned: 'sbbs' with pid 30875
+2017-08-31 12:06:20,329 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 12:18:44,889 INFO waiting for sbbs to stop
+2017-08-31 12:18:44,890 WARN killing 'sbbs' (30875) with SIGKILL
+2017-08-31 12:18:44,891 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 12:18:44,901 INFO spawned: 'sbbs' with pid 30994
+2017-08-31 12:18:44,933 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 12:30:29,710 INFO waiting for sbbs to stop
+2017-08-31 12:30:29,710 WARN killing 'sbbs' (30994) with SIGKILL
+2017-08-31 12:30:29,711 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 12:30:29,751 INFO spawned: 'sbbs' with pid 31058
+2017-08-31 12:30:29,751 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 20:57:32,223 WARN received SIGTERM indicating exit request
+2017-08-31 20:57:32,224 INFO waiting for sbbs to die
+2017-08-31 20:57:32,274 WARN killing 'sbbs' (31058) with SIGKILL
+2017-08-31 20:57:32,274 WARN received SIGHUP indicating restart request
+2017-08-31 20:57:32,282 WARN killing 'sbbs' (31058) with SIGKILL
+2017-08-31 20:57:32,286 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 20:57:32,463 INFO RPC interface 'supervisor' initialized
+2017-08-31 20:57:32,463 INFO supervisord started with pid 1537
+2017-08-31 20:57:33,465 INFO spawned: 'sbbs' with pid 31401
+2017-08-31 20:57:33,473 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 21:15:13,172 INFO RPC interface 'supervisor' initialized
+2017-08-31 21:15:13,174 INFO daemonizing the supervisord process
+2017-08-31 21:15:13,174 INFO supervisord started with pid 1917
+2017-08-31 21:15:14,177 INFO spawned: 'sbbs' with pid 1918
+2017-08-31 21:15:14,197 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-08-31 21:15:28,973 INFO waiting for sbbs to stop
+2017-08-31 21:15:28,973 WARN killing 'sbbs' (1918) with SIGKILL
+2017-08-31 21:15:28,974 INFO stopped: sbbs (terminated by SIGKILL)
+2017-08-31 21:15:29,006 INFO spawned: 'sbbs' with pid 1940
+2017-08-31 21:15:29,007 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+timeout: 2
+FYZx
+timeout: 15
+uJVj
+2017-09-01 00:34:55,501 INFO waiting for sbbs to stop
+2017-09-01 00:34:55,501 WARN killing 'sbbs' (1940) with SIGKILL
+2017-09-01 00:34:55,503 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-01 00:34:55,507 INFO spawned: 'sbbs' with pid 2439
+2017-09-01 00:34:55,507 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-09-02 01:30:35,203 INFO waiting for sbbs to stop
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,204 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,205 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,205 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,205 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,205 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,205 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,205 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,205 WARN killing 'sbbs' (2439) with SIGKILL
+2017-09-02 01:30:35,206 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-02 01:30:35,255 INFO spawned: 'sbbs' with pid 5053
+2017-09-02 01:30:35,255 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+timeout: 2
+PngT
+此用户是: 2017-09-05 23:28:21,911 INFO waiting for sbbs to stop
+2017-09-05 23:28:21,911 WARN killing 'sbbs' (5053) with SIGKILL
+2017-09-05 23:28:21,912 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-05 23:28:22,243 INFO spawned: 'sbbs' with pid 13587
+2017-09-05 23:28:22,243 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)

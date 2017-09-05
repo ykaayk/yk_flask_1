@@ -14,12 +14,13 @@
 {% block container %}
      <div class="top-div">
         <div>
-            <input type="text" class="btn btn-info" value="上传你的照片 : )" id="abstract-pic" style="display: block;">
+            <input type="button" class="btn btn-info" value="上传你的照片 : )" id="abstract-pic" style="display: block;">
+            <input type="button" class="btn btn-info" value="上传中..." id="abstract-pic-b" style="display: none;">
 	    <img src="" alt="" id="show-pic" class="pic-show">
         </div>
-         <br><br>
          <div>
-            <input class="btn btn-info" type="button" value="  抽象化！！  " id="abstract-submit" style="display: none;">
+             <input class="btn btn-info" type="button" value="  抽象化！！  " id="abstract-submit" style="display: none;">
+             <input class="btn btn-info" type="button" value="图片处理中，请稍后..." id="abstract-submit-b" style="display: none;">
             <img src="" alt="" id="pic-after-abstract" class="pic-show">
             <div style="display: none;">
                 <div class="btn-group" style="display: none;" id="type-btn">

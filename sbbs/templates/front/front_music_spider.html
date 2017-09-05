@@ -1,0 +1,40 @@
+{% extends 'front/front_base.html' %}
+
+{% block title %}
+    音乐鉴赏师
+{% endblock %}
+
+{% block head %}
+    <script src="{{ static('front/js/front_music.js') }} "></script>
+    <link rel="stylesheet" href="{{ static('front/css/front_music.css') }}">
+{% endblock %}
+
+{% block container %}
+    <div style="margin-left: 10px; width: 400px;">
+    <table class="table table-condensed ">
+        <thead id="thead">
+            <tr>
+                <th>
+                    <div class="song-head-name ">
+                        歌曲标题
+                    </div>
+                </th>
+                <th>
+                    <div class="song-head-artist">
+                        歌手
+                    </div>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        {% for song in songs_list %}
+            <tr song-id="{{ song.song_id }}" class="song">
+                <td><div class="song-list active">{{ song.song_name }}</div></td>
+                <td><div class="song-list active">{{ song.artist_name }}</div></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    </div>
+    <iframe id="music-iframe" frameborder="no" border="0" marginwidth="0" marginheight="0" width=450 height=186 src=""></iframe>
+{% endblock %}

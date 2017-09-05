@@ -1,9 +1,9 @@
 # coding:utf8
 from flask import Blueprint
 import flask
-from models.commonmodels import BoardModel, PostModel, CommentModel, PostStarModel, HighLightPostModel
+from models.commonmodels import BoardModel, PostModel, CommentModel, PostStarModel, HighLightPostModel, MusicModel
 from constants import SECRET_KEY, ACCESS_KEY, PAGE_NUM
-from utils import xtjson, image_abstract
+from utils import xtjson, image_abstract, music
 from forms.frontforms import AddPostForm, AddCommentForm, AddReply, StarPostForm
 from decorators.frontdecorators import login_required
 from exts import db
@@ -11,6 +11,7 @@ import qiniu
 import settings
 from PIL import Image
 import urllib
+from datetime import datetime
 # from datetime import datetime
 # from models.frontmodels import FrontUser
 # from constants import FRONT_SESSION_ID
@@ -273,6 +274,19 @@ def img_abstract_do():
     return xtjson.json_result(data={
         'img_url': after_abstract_do_url,
     })
+
+
+# 音乐鉴赏师
+@bp.route('/music_in/')
+def music_in():
+    time = datetime.now()
+    time_str = str(time.year)+'-'+str(time.month)+'-'+str(time.day)
+    # 若此刻时间不存在MySQL中则表示今日还未更新
+    if not MusicModel.query.filter(MusicModel.date_time == time_str).first():
+        music.music_spider()
+    # 从redis中取出歌单并渲染
+    songs_list = music.redis_music_return()
+    return flask.render_template('front/front_music_spider.html', songs_list=songs_list)
 
 
 # # 请求之前执行，若已登陆，则将用户存入flask.g.front_user中
