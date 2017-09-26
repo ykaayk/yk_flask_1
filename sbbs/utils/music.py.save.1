@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine, Column, Integer, String, Text, Boolean, Date, DateTime
 from redis import StrictRedis
-redis = StrictRedis(host='127.0.0.1', port=6379)
+redis = StrictRedis(host='192.168.201.130', port=6379)
 
 # sqlalchemy设置，生成session。供定时爬虫使用
 HOSTNAME = '127.0.0.1'
@@ -117,46 +117,4 @@ def music_spider(url=discover_url, h_list=hot_list, b_url=base_url, l_front=list
         #     artist_name = tag_a_json[u'artists'][0][u'name']
         #     redis_dic['artist_name'] = artist_name
         #     time = get_time()
-        #     redis_dic['time'] = time
-        #     # 存入redis
-        #     into_redis_music(redis_dic)
-        #     # 存入MySQL
-        #     song = MusicModel(date_time=time, song_name=song_name, artist_name=artist_name, song_id=song_id)
-        #     session.add(song)
-        #     session.commit()
-        #     songs_num += 1
-        #     # 每个歌单选择2首歌
-        #     if songs_num >= l_front:
-        #         break
-
-
-def get_time():
-    now = datetime.now()
-    year = now.year
-    month = now.month
-    day = now.day
-    return str(year)+'-'+str(month)+'-'+str(day)
-
-
-# 将歌曲存入redis
-def into_redis_music(dic):
-    dic_json = json.dumps(dic)
-    redis.lpush('music', dic_json)
-
-
-# 读取redis中的歌曲列表，返回歌曲列表
-def redis_music_return():
-    dic = redis.lrange('music', 0, -1)
-    dic_after = []
-    for d in dic:
-        dic_after.append(json.loads(d))
-    return dic_after
-
-# 定时更新数据
-if __name__ == '__main__':
-    time = datetime.now()
-    time_str = str(time.year)+'-'+str(time.month)+'-'+str(time.day)
-    if not session.query(MusicModel).filter_by(date_time=time_str).first():
-        music_spider()
-
 

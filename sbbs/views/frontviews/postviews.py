@@ -289,6 +289,11 @@ def music_in():
     return flask.render_template('front/front_music_spider.html', songs_list=songs_list)
 
 
+# 美丽购物城
+@bp.route('/store_index/')
+def store_index():
+    return flask.render_template('front/front_store_index.html')
+
 # # 请求之前执行，若已登陆，则将用户存入flask.g.front_user中
 # @bp.before_request
 # def front_before_request():

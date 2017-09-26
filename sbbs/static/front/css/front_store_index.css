@@ -1,0 +1,104 @@
+.f-pa{
+    display: none;
+    text-align: center;
+    height: 500px;
+    min-width:650px;
+}
+.s-f-pa{
+    display: block;
+}
+.dots{
+    width: 100%;
+    position: absolute;
+    top: 490px;
+    text-align: center;
+    min-width:650px;
+}
+.dots a{
+    bottom: 30px;
+    display: inline-block;
+    border: 1px;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-image: url('../../images/store/dot-1.png');
+}
+.a-select{
+    background-color:#4d80e6;
+}
+.up-big{
+    width:100%;
+}
+.mid-small{
+    width: 825px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+.mid-ul{
+    height: 100px;
+    text-align: center;
+}
+.mid-ul li{
+    float: left;
+    height: 70px;
+    width: 250px;
+}
+.mid-ul li a{
+    text-align: center;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 5px 5px;
+    border-left: 3px solid #b22222;
+}
+.mid-ul li a img{
+    padding-top: 16px;
+    padding-left: 50px;
+    text-align: center;
+}
+.mid-ul li a span{
+    color: #000;
+    line-height: 80px;
+    display: inline-block;
+    height: 80px;
+    text-align: center;
+    font-family: quote, 'PingFang SC', 'Microsoft Yahei', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', 'simsun', sans-serif;
+    font-size: 14px;
+    float: left;
+}
+
+.product-main{
+    width: 1100px;
+    margin: 0 auto;
+}
+.product-small{
+    width: 1100px;
+    margin-top: 100px;
+}
+.product-ul{
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow:hidden;
+}
+.product-ul li{
+    float: left;
+    width: 263px;
+    height: 382px;
+    text-align: left;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #ffffff;
+}
+.product-each h5 a{
+    color: #000;
+}
+.product-each p{
+    text-align: center;
+    color: #d33a31;
+    font-size: 20px;
+    margin-top: 10px;
+}
