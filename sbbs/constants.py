@@ -25,3 +25,4 @@ PAGE_NUM_BACK = 10
 # 当前路径
 PATH = os.path.abspath(os.path.dirname(sys.argv[0]))
 path = PATH
+

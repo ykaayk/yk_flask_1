@@ -158,7 +158,6 @@ def setting():
 def personal_center():
     user_id = flask.request.args.get('user_id')
     user = FrontUser.query.filter(FrontUser.id == user_id).first()
-    print '此用户是:',user.username
     contest = {
         'user': user
     }

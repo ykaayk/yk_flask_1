@@ -15225,3 +15225,45 @@ e34P
 2017-09-26 16:33:10,482 INFO stopped: sbbs (terminated by SIGKILL)
 2017-09-26 16:33:11,429 INFO spawned: 'sbbs' with pid 6863
 2017-09-26 16:33:11,429 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-09-26 22:33:52,245 INFO waiting for sbbs to stop
+2017-09-26 22:33:52,330 WARN killing 'sbbs' (6863) with SIGKILL
+2017-09-26 22:33:52,371 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-26 22:33:52,945 INFO spawned: 'sbbs' with pid 8363
+2017-09-26 22:33:52,945 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-09-26 22:44:42,603 INFO waiting for sbbs to stop
+2017-09-26 22:44:42,604 WARN killing 'sbbs' (8363) with SIGKILL
+2017-09-26 22:44:42,605 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-26 22:44:42,687 INFO spawned: 'sbbs' with pid 8382
+2017-09-26 22:44:42,687 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+timeout: 2
+timeout: 2
+timeout: 2
+timeout: 2
+timeout: 2
+timeout: 2
+timeout: 2
+timeout: 2
+timeout: 2
+timeout: 2
+此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: timeout: 2
+timeout: 2
+此用户是: timeout: 2
+timeout: 2
+此用户是: timeout: 2
+2017-09-26 23:53:42,964 INFO waiting for sbbs to stop
+2017-09-26 23:53:42,964 WARN killing 'sbbs' (8382) with SIGKILL
+2017-09-26 23:53:43,053 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-26 23:53:44,203 INFO spawned: 'sbbs' with pid 8613
+2017-09-26 23:53:44,939 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+timeout: 2
+NwmT
+此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 2017-09-27 00:13:44,639 INFO waiting for sbbs to stop
+2017-09-27 00:13:44,639 WARN killing 'sbbs' (8613) with SIGKILL
+2017-09-27 00:13:44,641 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-27 00:13:45,378 INFO spawned: 'sbbs' with pid 8639
+2017-09-27 00:13:45,378 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 此用户是: 2017-09-27 10:54:06,471 INFO waiting for sbbs to stop
+2017-09-27 10:54:06,471 WARN killing 'sbbs' (8639) with SIGKILL
+2017-09-27 10:54:06,472 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-27 10:54:18,490 INFO spawned: 'sbbs' with pid 10442
+2017-09-27 10:54:18,490 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
