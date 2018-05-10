@@ -15267,3 +15267,42 @@ NwmT
 2017-09-27 10:54:06,472 INFO stopped: sbbs (terminated by SIGKILL)
 2017-09-27 10:54:18,490 INFO spawned: 'sbbs' with pid 10442
 2017-09-27 10:54:18,490 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-09-27 15:09:01,399 INFO waiting for sbbs to stop
+2017-09-27 15:09:01,399 WARN killing 'sbbs' (10442) with SIGKILL
+2017-09-27 15:09:01,401 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-27 15:09:01,564 INFO spawned: 'sbbs' with pid 11508
+2017-09-27 15:09:01,564 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-09-27 15:09:05,989 INFO waiting for sbbs to stop
+2017-09-27 15:09:05,989 WARN killing 'sbbs' (11508) with SIGKILL
+2017-09-27 15:09:06,561 WARN killing 'sbbs' (11508) with SIGKILL
+2017-09-27 15:09:06,599 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-27 15:09:07,218 INFO spawned: 'sbbs' with pid 11509
+2017-09-27 15:09:07,218 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-09-27 22:32:39,325 WARN received SIGHUP indicating restart request
+2017-09-27 22:32:40,853 INFO waiting for sbbs to die
+2017-09-27 22:32:40,853 WARN killing 'sbbs' (11509) with SIGKILL
+2017-09-27 22:32:40,976 WARN received SIGTERM indicating exit request
+2017-09-27 22:32:42,098 WARN killing 'sbbs' (11509) with SIGKILL
+2017-09-27 22:32:42,907 WARN killing 'sbbs' (11509) with SIGKILL
+2017-09-27 22:32:42,907 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-27 22:49:45,707 INFO RPC interface 'supervisor' initialized
+2017-09-27 22:49:45,709 INFO daemonizing the supervisord process
+2017-09-27 22:49:45,709 INFO supervisord started with pid 1618
+2017-09-27 22:49:46,712 INFO spawned: 'sbbs' with pid 1619
+2017-09-27 22:49:46,737 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-09-27 22:50:06,988 INFO waiting for sbbs to stop
+2017-09-27 22:50:06,988 WARN killing 'sbbs' (1619) with SIGKILL
+2017-09-27 22:50:06,989 INFO stopped: sbbs (terminated by SIGKILL)
+2017-09-27 22:50:07,026 INFO spawned: 'sbbs' with pid 1635
+2017-09-27 22:50:07,026 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2017-12-28 19:17:36,511 WARN received SIGHUP indicating restart request
+2017-12-28 19:17:36,582 INFO waiting for sbbs to die
+2017-12-28 19:17:36,582 WARN killing 'sbbs' (1635) with SIGKILL
+2017-12-28 19:17:36,582 WARN received SIGTERM indicating exit request
+2017-12-28 19:17:36,595 WARN killing 'sbbs' (1635) with SIGKILL
+2017-12-28 19:17:36,604 INFO stopped: sbbs (terminated by SIGKILL)
+2018-02-27 15:39:04,470 INFO RPC interface 'supervisor' initialized
+2018-02-27 15:39:04,471 INFO daemonizing the supervisord process
+2018-02-27 15:39:04,472 INFO supervisord started with pid 10364
+2018-02-27 15:39:05,474 INFO spawned: 'sbbs' with pid 10365
+2018-02-27 15:39:05,499 INFO success: sbbs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)

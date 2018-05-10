@@ -79,7 +79,7 @@ class Captcha(object):
         if cls.draw_point:
             cls.__gene_points(draw, 10, width, height)
 
-        print text  # 验证码
+        # print text  # 验证码
 
         return text, image
 

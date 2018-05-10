@@ -203,7 +203,6 @@ def main_img_2(img_f, pic_path_after_list, thumbnail_size_list):
         new_img.save(new_img_name)
 
 
-
 # 主图片选拼图，参数：像素点RGB值，处理后的拼图路径列表
 def choice_img(pixel, pic_path_after_list, thumbnail_size):
     # RGB值
@@ -319,11 +318,11 @@ if __name__ == '__main__':
         # last_path = after_path + '\\' + str(t_size[0]) + '-' + str(t_size[1])  # 最终处理后的路径
         if not os.path.exists(after_path):
             # 修改拼接图片
-            print name, '拼图分析中...'
+            # print name, '拼图分析中...'
             # 根据t_size调整路径
             for t_size in base_t_size_list:
                 change_img(before_path, after_path, t_size)
-            print name, '拼图分析完毕'
+            # print name, '拼图分析完毕'
 
     # 柴犬拼图
     # print '主图片分析中...'
